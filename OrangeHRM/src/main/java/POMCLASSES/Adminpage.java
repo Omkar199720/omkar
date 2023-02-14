@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Adminpage {
 
- @FindBy ( xpath ="//span[text()='Admin']")
- private WebElement admin;
+ //@FindBy ( xpath ="//span[text()='Admin']")
+ //private WebElement admin;
 	
  @FindBy (xpath = "//span[text()='Organization ']")
  private WebElement oranganisation;
